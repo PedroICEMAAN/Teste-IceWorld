@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(25, 0, 54);
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background: rgb(25, 0, 54);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:rgba(0, 255, 255, 0.445) ;
+    border-radius: 10px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.nav_bar > ul {
+    width: 80%;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: aqua;
+}
+
+.nav_bar > image_footer{
+    width: auto;
+    height: auto;
+}
+
+.index-logo {
+    width: 100%;
+    height: 50%;
+    background-color: #000000;
+}
+
+.index-text {
+    width: 100%;
+    height: 50%;
+    background-color: #3241ff;
+}
+
+.index-autor {
+    width: 100%;
+    height: 50%;
+    background-color: #000000;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: #3241ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_footer {
+    display: flex;
+}
